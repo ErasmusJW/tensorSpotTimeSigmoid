@@ -2,8 +2,8 @@
   "name": "adam-30-30-30-[sigmoid]",
   "complete": false,
   "inputLayer": {
-    "inputShape": 171,
-    "units": 171,
+    "inputShape": 158,
+    "units": 158,
     "activation": "sigmoid"
   },
   "outputLayer": {
