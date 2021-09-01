@@ -1,0 +1,16 @@
+/node_modules
+.idea
+/coverage
+*.tgz
+*~
+.vscode/
+.nyc_output/
+/cypress/results
+/cypress/screenshots
+/cypress/videos
+/lib/webBuild/
+/lib/dist
+publish_error.txt
+restults*.xml
+/testWeb/dest/
+

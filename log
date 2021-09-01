@@ -1,0 +1,323 @@
+2021-08-31 10:23:29.324538: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+2021-08-31 10:23:29.534282: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-08-31 10:23:29.556574: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcuda.so.1
+2021-08-31 10:23:29.652305: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1733] Found device 0 with properties: 
+pciBusID: 0000:00:1e.0 name: Tesla T4 computeCapability: 7.5
+coreClock: 1.59GHz coreCount: 40 deviceMemorySize: 14.75GiB deviceMemoryBandwidth: 298.08GiB/s
+2021-08-31 10:23:29.652343: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+2021-08-31 10:23:29.682170: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublas.so.11
+2021-08-31 10:23:29.682215: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublasLt.so.11
+2021-08-31 10:23:29.727850: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcufft.so.10
+2021-08-31 10:23:29.736997: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcurand.so.10
+2021-08-31 10:23:29.770550: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcusolver.so.11
+2021-08-31 10:23:29.777621: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcusparse.so.11
+2021-08-31 10:23:29.780522: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudnn.so.8
+2021-08-31 10:23:29.781711: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1871] Adding visible gpu devices: 0
+2021-08-31 10:23:29.782411: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcudart.so.11.0
+2021-08-31 10:23:31.419967: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1258] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-08-31 10:23:31.420005: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1264]      0 
+2021-08-31 10:23:31.420015: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1277] 0:   N 
+2021-08-31 10:23:31.421783: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1418] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 13803 MB memory) -> physical GPU (device: 0, name: Tesla T4, pci bus id: 0000:00:1e.0, compute capability: 7.5)
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense1 (Dense)         [null,222]                49506     
+_________________________________________________________________
+dense_Dense2 (Dense)         [null,30]                 6690      
+_________________________________________________________________
+dense_Dense3 (Dense)         [null,30]                 930       
+_________________________________________________________________
+dense_Dense4 (Dense)         [null,30]                 930       
+_________________________________________________________________
+dense_Dense5 (Dense)         [null,1]                  31        
+=================================================================
+Total params: 58087
+Trainable params: 58087
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense6 (Dense)         [null,222]                49506     
+_________________________________________________________________
+dense_Dense7 (Dense)         [null,50]                 11150     
+_________________________________________________________________
+dense_Dense8 (Dense)         [null,50]                 2550      
+_________________________________________________________________
+dense_Dense9 (Dense)         [null,50]                 2550      
+_________________________________________________________________
+dense_Dense10 (Dense)        [null,1]                  51        
+=================================================================
+Total params: 65807
+Trainable params: 65807
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense11 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense12 (Dense)        [null,70]                 15610     
+_________________________________________________________________
+dense_Dense13 (Dense)        [null,70]                 4970      
+_________________________________________________________________
+dense_Dense14 (Dense)        [null,70]                 4970      
+_________________________________________________________________
+dense_Dense15 (Dense)        [null,1]                  71        
+=================================================================
+Total params: 75127
+Trainable params: 75127
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense16 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense17 (Dense)        [null,30]                 6690      
+_________________________________________________________________
+dense_Dense18 (Dense)        [null,30]                 930       
+_________________________________________________________________
+dense_Dense19 (Dense)        [null,1]                  31        
+=================================================================
+Total params: 57157
+Trainable params: 57157
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense20 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense21 (Dense)        [null,50]                 11150     
+_________________________________________________________________
+dense_Dense22 (Dense)        [null,50]                 2550      
+_________________________________________________________________
+dense_Dense23 (Dense)        [null,1]                  51        
+=================================================================
+Total params: 63257
+Trainable params: 63257
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense24 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense25 (Dense)        [null,70]                 15610     
+_________________________________________________________________
+dense_Dense26 (Dense)        [null,70]                 4970      
+_________________________________________________________________
+dense_Dense27 (Dense)        [null,1]                  71        
+=================================================================
+Total params: 70157
+Trainable params: 70157
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense28 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense29 (Dense)        [null,30]                 6690      
+_________________________________________________________________
+dense_Dense30 (Dense)        [null,30]                 930       
+_________________________________________________________________
+dense_Dense31 (Dense)        [null,30]                 930       
+_________________________________________________________________
+dense_Dense32 (Dense)        [null,1]                  31        
+=================================================================
+Total params: 58087
+Trainable params: 58087
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense33 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense34 (Dense)        [null,50]                 11150     
+_________________________________________________________________
+dense_Dense35 (Dense)        [null,50]                 2550      
+_________________________________________________________________
+dense_Dense36 (Dense)        [null,50]                 2550      
+_________________________________________________________________
+dense_Dense37 (Dense)        [null,1]                  51        
+=================================================================
+Total params: 65807
+Trainable params: 65807
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense38 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense39 (Dense)        [null,70]                 15610     
+_________________________________________________________________
+dense_Dense40 (Dense)        [null,70]                 4970      
+_________________________________________________________________
+dense_Dense41 (Dense)        [null,70]                 4970      
+_________________________________________________________________
+dense_Dense42 (Dense)        [null,1]                  71        
+=================================================================
+Total params: 75127
+Trainable params: 75127
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense43 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense44 (Dense)        [null,30]                 6690      
+_________________________________________________________________
+dense_Dense45 (Dense)        [null,30]                 930       
+_________________________________________________________________
+dense_Dense46 (Dense)        [null,1]                  31        
+=================================================================
+Total params: 57157
+Trainable params: 57157
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense47 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense48 (Dense)        [null,50]                 11150     
+_________________________________________________________________
+dense_Dense49 (Dense)        [null,50]                 2550      
+_________________________________________________________________
+dense_Dense50 (Dense)        [null,1]                  51        
+=================================================================
+Total params: 63257
+Trainable params: 63257
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense51 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense52 (Dense)        [null,70]                 15610     
+_________________________________________________________________
+dense_Dense53 (Dense)        [null,70]                 4970      
+_________________________________________________________________
+dense_Dense54 (Dense)        [null,1]                  71        
+=================================================================
+Total params: 70157
+Trainable params: 70157
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense55 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense56 (Dense)        [null,30]                 6690      
+_________________________________________________________________
+dense_Dense57 (Dense)        [null,30]                 930       
+_________________________________________________________________
+dense_Dense58 (Dense)        [null,30]                 930       
+_________________________________________________________________
+dense_Dense59 (Dense)        [null,1]                  31        
+=================================================================
+Total params: 58087
+Trainable params: 58087
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense60 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense61 (Dense)        [null,50]                 11150     
+_________________________________________________________________
+dense_Dense62 (Dense)        [null,50]                 2550      
+_________________________________________________________________
+dense_Dense63 (Dense)        [null,50]                 2550      
+_________________________________________________________________
+dense_Dense64 (Dense)        [null,1]                  51        
+=================================================================
+Total params: 65807
+Trainable params: 65807
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense65 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense66 (Dense)        [null,70]                 15610     
+_________________________________________________________________
+dense_Dense67 (Dense)        [null,70]                 4970      
+_________________________________________________________________
+dense_Dense68 (Dense)        [null,70]                 4970      
+_________________________________________________________________
+dense_Dense69 (Dense)        [null,1]                  71        
+=================================================================
+Total params: 75127
+Trainable params: 75127
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense70 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense71 (Dense)        [null,30]                 6690      
+_________________________________________________________________
+dense_Dense72 (Dense)        [null,30]                 930       
+_________________________________________________________________
+dense_Dense73 (Dense)        [null,1]                  31        
+=================================================================
+Total params: 57157
+Trainable params: 57157
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense74 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense75 (Dense)        [null,50]                 11150     
+_________________________________________________________________
+dense_Dense76 (Dense)        [null,50]                 2550      
+_________________________________________________________________
+dense_Dense77 (Dense)        [null,1]                  51        
+=================================================================
+Total params: 63257
+Trainable params: 63257
+Non-trainable params: 0
+_________________________________________________________________
+_________________________________________________________________
+Layer (type)                 Output shape              Param #   
+=================================================================
+dense_Dense78 (Dense)        [null,222]                49506     
+_________________________________________________________________
+dense_Dense79 (Dense)        [null,70]                 15610     
+_________________________________________________________________
+dense_Dense80 (Dense)        [null,70]                 4970      
+_________________________________________________________________
+dense_Dense81 (Dense)        [null,1]                  71        
+=================================================================
+Total params: 70157
+Trainable params: 70157
+Non-trainable params: 0
+_________________________________________________________________
+training model rmsprop-70-70-[sigmoid]
+Epoch 1 / 10
+2021-08-31 10:23:32.370007: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublas.so.11
+2021-08-31 10:23:33.514426: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcublasLt.so.11
+2021-08-31 10:23:33.530906: I tensorflow/stream_executor/platform/default/dso_loader.cc:53] Successfully opened dynamic library libcuda.so.1
+alive
+
+201163ms 14167us/step - loss=6.44e-3 mape=83.69 
+Epoch: 0
+logs {
+  "loss": 0.006439168006181717,
+  "mape": 83.687744140625
+}
+Epoch 2 / 10
