@@ -70,7 +70,7 @@ class Main{
 
 
           const data =
-              tf.data.csv(`file://${__dirname}/data/DumpTimeOperator.csv`, {
+              tf.data.csv(`file://${__dirname}/data/SpotTimeOperator.csv`, {
               columnConfigs: {...this.columnConfigs},
               hasHeader : true,
               configuredColumnsOnly : true
