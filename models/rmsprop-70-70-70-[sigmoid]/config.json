@@ -1,0 +1,29 @@
+{
+  "name": "rmsprop-70-70-70-[sigmoid]",
+  "complete": false,
+  "inputLayer": {
+    "inputShape": 171,
+    "units": 171,
+    "activation": "sigmoid"
+  },
+  "outputLayer": {
+    "units": 1
+  },
+  "hidenLayers": [
+    {
+      "units": "70",
+      "activation": "sigmoid"
+    },
+    {
+      "units": "70",
+      "activation": "sigmoid"
+    },
+    {
+      "units": "70",
+      "activation": "sigmoid"
+    }
+  ],
+  "optimizer": "rmsprop",
+  "loss": "meanSquaredError",
+  "metrics": "mape"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "stochastic-30-30-30-[sigmoid]",
+  "complete": false,
+  "inputLayer": {
+    "inputShape": 171,
+    "units": 171,
+    "activation": "sigmoid"
+  },
+  "outputLayer": {
+    "units": 1
+  },
+  "hidenLayers": [
+    {
+      "units": "30",
+      "activation": "sigmoid"
+    },
+    {
+      "units": "30",
+      "activation": "sigmoid"
+    },
+    {
+      "units": "30",
+      "activation": "sigmoid"
+    }
+  ],
+  "optimizer": "sgd",
+  "loss": "meanSquaredError",
+  "metrics": "mape"
+}
