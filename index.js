@@ -99,7 +99,7 @@ class Main{
         while(1){
             AllmodelCount++;
             let index = 0
-            for(var i = 0; i <  10;i++){
+            for(var i = 0; i <  6;i++){
             //for(let model of this.loadedModels){
             let model = this.loadedModels[i]
             console.log(`training model ${this.allModelConfig[i].name}`)
