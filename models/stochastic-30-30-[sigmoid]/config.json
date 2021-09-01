@@ -12,11 +12,11 @@
   "hidenLayers": [
     {
       "units": "30",
-      "activation": "relu"
+      "activation": "sigmoid"
     },
     {
       "units": "30",
-      "activation": "relu"
+      "activation": "sigmoid"
     }
   ],
   "optimizer": "sgd",
