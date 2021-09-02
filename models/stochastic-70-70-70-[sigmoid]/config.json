@@ -2,8 +2,8 @@
   "name": "stochastic-70-70-70-[sigmoid]",
   "complete": false,
   "inputLayer": {
-    "inputShape": 158,
-    "units": 158,
+    "inputShape": 221,
+    "units": 221,
     "activation": "sigmoid"
   },
   "outputLayer": {

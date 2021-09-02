@@ -4,8 +4,8 @@
     "name": "stochastic-30-30-30-[sigmoid]",
     "complete": false,
     "inputLayer": {
-      "inputShape": 158,
-      "units": 158,
+      "inputShape": 221,
+      "units": 221,
       "activation": "sigmoid"
     },
     "outputLayer": {
@@ -33,8 +33,8 @@
     "name": "stochastic-70-70-70-[sigmoid]",
     "complete": false,
     "inputLayer": {
-      "inputShape": 158,
-      "units": 158,
+      "inputShape": 221,
+      "units": 221,
       "activation": "sigmoid"
     },
     "outputLayer": {
@@ -62,8 +62,8 @@
     "name": "stochastic-30-30-[sigmoid]",
     "complete": false,
     "inputLayer": {
-      "inputShape": 158,
-      "units": 158,
+      "inputShape": 221,
+      "units": 221,
       "activation": "sigmoid"
     },
     "outputLayer": {
@@ -76,31 +76,6 @@
       },
       {
         "units": "30",
-        "activation": "sigmoid"
-      }
-    ],
-    "optimizer": "sgd",
-    "loss": "meanSquaredError",
-    "metrics": "mape"
-  },
-  {
-    "name": "stochastic-70-70-[sigmoid]",
-    "complete": false,
-    "inputLayer": {
-      "inputShape": 158,
-      "units": 158,
-      "activation": "sigmoid"
-    },
-    "outputLayer": {
-      "units": 1
-    },
-    "hidenLayers": [
-      {
-        "units": "70",
-        "activation": "sigmoid"
-      },
-      {
-        "units": "70",
         "activation": "sigmoid"
       }
     ],
@@ -112,8 +87,8 @@
     "name": "adam-30-30-30-[sigmoid]",
     "complete": false,
     "inputLayer": {
-      "inputShape": 158,
-      "units": 158,
+      "inputShape": 221,
+      "units": 221,
       "activation": "sigmoid"
     },
     "outputLayer": {
@@ -141,8 +116,8 @@
     "name": "adam-70-70-70-[sigmoid]",
     "complete": false,
     "inputLayer": {
-      "inputShape": 158,
-      "units": 158,
+      "inputShape": 221,
+      "units": 221,
       "activation": "sigmoid"
     },
     "outputLayer": {
@@ -170,8 +145,8 @@
     "name": "adam-30-30-[sigmoid]",
     "complete": false,
     "inputLayer": {
-      "inputShape": 158,
-      "units": 158,
+      "inputShape": 221,
+      "units": 221,
       "activation": "sigmoid"
     },
     "outputLayer": {
@@ -195,8 +170,8 @@
     "name": "adam-70-70-[sigmoid]",
     "complete": false,
     "inputLayer": {
-      "inputShape": 158,
-      "units": 158,
+      "inputShape": 221,
+      "units": 221,
       "activation": "sigmoid"
     },
     "outputLayer": {
@@ -222,8 +197,8 @@
     "name": "rmsprop-30-30-30-[sigmoid]",
     "complete": false,
     "inputLayer": {
-      "inputShape": 158,
-      "units": 158,
+      "inputShape": 221,
+      "units": 221,
       "activation": "sigmoid"
     },
     "outputLayer": {
@@ -251,8 +226,8 @@
     "name": "rmsprop-70-70-70-[sigmoid]",
     "complete": false,
     "inputLayer": {
-      "inputShape": 158,
-      "units": 158,
+      "inputShape": 221,
+      "units": 221,
       "activation": "sigmoid"
     },
     "outputLayer": {
@@ -280,8 +255,8 @@
     "name": "rmsprop-30-30-[sigmoid]",
     "complete": false,
     "inputLayer": {
-      "inputShape": 158,
-      "units": 158,
+      "inputShape": 221,
+      "units": 221,
       "activation": "sigmoid"
     },
     "outputLayer": {
@@ -294,31 +269,6 @@
       },
       {
         "units": "30",
-        "activation": "sigmoid"
-      }
-    ],
-    "optimizer": "rmsprop",
-    "loss": "meanSquaredError",
-    "metrics": "mape"
-  },
-  {
-    "name": "rmsprop-70-70-[sigmoid]",
-    "complete": false,
-    "inputLayer": {
-      "inputShape": 158,
-      "units": 158,
-      "activation": "sigmoid"
-    },
-    "outputLayer": {
-      "units": 1
-    },
-    "hidenLayers": [
-      {
-        "units": "70",
-        "activation": "sigmoid"
-      },
-      {
-        "units": "70",
         "activation": "sigmoid"
       }
     ],
