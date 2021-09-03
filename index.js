@@ -6,7 +6,7 @@ let flattenedDataset
 class Main{
      constructor(){
         this.columnConfigs = {}
-        this.batches = 3;
+        this.batches = 6;
 
 
 
